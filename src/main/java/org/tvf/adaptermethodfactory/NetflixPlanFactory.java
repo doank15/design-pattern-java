@@ -1,4 +1,4 @@
-package org.tvf;
+package org.tvf.adaptermethodfactory;
 
 public class NetflixPlanFactory {
     public static NetflixPlan getNetflixPlan(String planType) {

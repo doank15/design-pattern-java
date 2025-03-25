@@ -1,4 +1,4 @@
-package org.tvf;
+package org.tvf.adaptermethodfactory;
 
 public abstract class NetflixPlan {
     protected int price;

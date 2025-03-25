@@ -1,4 +1,4 @@
-package org.tvf;
+package org.tvf.adaptermethodfactory;
 
 import java.util.Scanner;
 
