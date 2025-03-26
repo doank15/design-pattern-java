@@ -4,6 +4,7 @@
 - Concrete: Cụ thể
 - Instantiation: Khởi tạo
 - Observe: Quan sát, nhìn ra, nhận thấy 
+- Ingredients: Thành phần
 # Overview
 - After completing this course, you should be able to understand the following:
   - The fundamental principles and types of design patterns in Java, including:
@@ -47,3 +48,4 @@
   - caching
   - logging
   - thread-pool
+# Builder Pattern 
