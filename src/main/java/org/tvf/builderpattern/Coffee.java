@@ -77,6 +77,9 @@ class Main {
         Coffee coffee2 = new Coffee.CoffeeBuilder("espresso")
                 .build();
 
+        Coffee coffee3 = new Coffee.CoffeeBuilder("espresso").withSugar(true)
+                .build();
+
         // In thông tin ly cà phê
         System.out.println(coffee2);
     }

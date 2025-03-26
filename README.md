@@ -8,9 +8,9 @@
 # Overview
 - After completing this course, you should be able to understand the following:
   - The fundamental principles and types of design patterns in Java, including:
-    - Creational -> Factory Method, Singleton, and Builder
-    - Structural -> Adapter, Bridge, and Facade
-    - Behavior patterns
+    - `Creational` -> Factory Method, Singleton, and Builder
+    - `Structural` -> Adapter, Bridge, and Facade
+    - `Behavior` patterns
   - Advanced Design Patterns such as Chain Responsibility, Command and Observer.
 
 # Introduction
@@ -49,3 +49,13 @@
   - logging
   - thread-pool
 # Builder Pattern 
+- Builder pattern là mẫu thiết kế giúp xây dựng một đối tượng phức tạp. Thay vì truyền tất cả các tham số vào constructor ngay lập tức, nó cho phép bạn thêm từng thuộc tính theo cách linh hoạt.
+- Nó thường được dùng khi một đối tượng có nhiều thuộc tính, không phải lúc nào cũng cần tất cả. Ví dụ, nếu tôi làm một lớp Coffee với loại cà phê, đường, sữa, kích thước, thì thay vì viết `nhiều constructor khác nhau`, tôi dùng `Builder` để chọn từng thứ: 'mocha, có sữa, không đường, ly lớn'. Cuối cùng, tôi gọi `build()` để tạo đối tượng.
+- Tại sao nên dùng Builder Pattern? 
+  - Dễ đọc
+  - Linh hoạt
+  - Tách biệt được quá trình xây dựng đối tượng ra khỏi lớp chính -> dễ bảo trì và thay đổi
+- Khi nào nên dùng? 
+  - Khi đối tượng có nhiều thuộc tính và không phải khi nào cũng cần hết.
+  - Muốn code dễ đọc và dễ mở rộng.
+  - Muốn tạo đối tượng bất biến.
