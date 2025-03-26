@@ -8,8 +8,8 @@
 # Overview
 - After completing this course, you should be able to understand the following:
   - The fundamental principles and types of design patterns in Java, including:
-    - `Creational` -> Factory Method, Singleton, and Builder
-    - `Structural` -> Adapter, Bridge, and Facade
+    - `Creational` -> `Factory Method, Singleton, and Builder`.
+    - `Structural` -> Adapter, Bridge, Facade, Composite, Decorator, Flyweight, Proxy pattern.
     - `Behavior` patterns
   - Advanced Design Patterns such as Chain Responsibility, Command and Observer.
 
@@ -59,3 +59,8 @@
   - Khi đối tượng có nhiều thuộc tính và không phải khi nào cũng cần hết.
   - Muốn code dễ đọc và dễ mở rộng.
   - Muốn tạo đối tượng bất biến.
+# Structural Pattern 
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+# Adapter Pattern 
+- To make the `interface` of a class compatible with another `interface`
